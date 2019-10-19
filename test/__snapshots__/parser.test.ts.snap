@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Parser parse .gpx 1`] = `
+Object {
+  "metadata": Object {
+    "creator": "AllTrails https://www.alltrails.com/ - Praha-8,8km",
+    "description": null,
+    "name": "Praha-8,8km",
+    "time": 2019-10-18T21:50:26.000Z,
+  },
+  "trackLength": 368,
+  "trackName": "Praha-8,8km on AllTrails",
+  "tractFirstPoint": Object {
+    "altitude": 280,
+    "cadence": null,
+    "heartRate": null,
+    "lat": 50.088387,
+    "lon": 14.3919342,
+    "speed": null,
+    "time": 2010-01-01T00:00:00.000Z,
+  },
+  "tractLastPoint": Object {
+    "altitude": 282,
+    "cadence": null,
+    "heartRate": null,
+    "lat": 50.08826,
+    "lon": 14.39154,
+    "speed": null,
+    "time": 2010-01-01T00:32:55.000Z,
+  },
+  "waypoints": Array [
+    Object {
+      "altitude": 280,
+      "description": null,
+      "lat": 50.088387,
+      "lon": 14.3919342,
+      "name": "Start",
+      "symbol": null,
+      "time": 2010-01-01T00:00:00.000Z,
+    },
+    Object {
+      "altitude": 282,
+      "description": null,
+      "lat": 50.08826,
+      "lon": 14.39154,
+      "name": "End",
+      "symbol": null,
+      "time": 2010-01-01T00:32:55.000Z,
+    },
+  ],
+}
+`;

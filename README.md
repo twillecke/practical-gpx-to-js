@@ -92,6 +92,10 @@ export interface GpxTrackpoint {
 
 Currently handles only `gpxtpx:TrackPointExtension` `hr` and `cad`
 
+## Building
+
+This library uses [tsdx](https://github.com/jaredpalmer/tsdx) under the hood.
+
 ## License
 
 MIT
